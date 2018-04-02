@@ -8,6 +8,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Infinite List',
+      theme: new ThemeData(
+        primaryColorDark: Colors.blue,
+        primaryColorLight: Colors.lightBlue
+      ),
       home: new RandomWords(),
     );
   }
